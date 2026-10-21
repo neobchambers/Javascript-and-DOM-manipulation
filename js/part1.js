@@ -1,8 +1,8 @@
-console.log("Student Name: Your Name, Group: Your Group");
+console.log("Imanova Yerkezhan SE-2528");
 alert("Hello, JavaScript World!");
 
-let name = "Alex";           // String
-let age = 20;                 // Number
+let name = "sans sheriff";           // String
+let age = 67;                 // Number
 let isStudent = true;         // Boolean
 
 let num1 = 10;
