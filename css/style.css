@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f0fd;
+  color: #333333;
+  padding-bottom: 40px;
+}
+
+/* Navbar */
+nav {
+  background-color: #2e2932;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #4c51bf;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+.section-box {
+  border: 1px solid #e9e2f0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #954cbf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 2px;
+}
+
+button:hover {
+  background-color: #7532af;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Part 3 Specifics */
+#colorBox {
+  width: 150px;
+  height: 150px;
+  background-color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+/* To-Do Layout (Part 4) */
+.todo-container {
+  display: flex;
+  gap: 30px;
+}
+
+.todo-list-section {
+  flex: 1;
+}
+
+.todo-form-section {
+  flex: 1;
+  background: #f2ccff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #5b2f65;
+}
+
+.task-item {
+  background: #fee6ff;
+  border: 1px solid #bd97d4;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  color: #973ee5;
+  font-size: 16px;
+  cursor: pointer;
+}

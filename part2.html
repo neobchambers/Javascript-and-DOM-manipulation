@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Part 2 - DOM Manipulation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">JS Assignment #5</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="part1.html">Part 1</a></li>
+      <li><a href="part2.html">Part 2</a></li>
+      <li><a href="part3.html">Part 3</a></li>
+      <li><a href="todo.html">To-Do App</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Part 2: DOM Manipulation</h2>
+
+    <div class="section-box">
+      <h3>Task 2: Changing Content</h3>
+      <p id="textParagraph">Original text in paragraph.</p>
+      <button id="changeTextBtn">Change Text</button>
+    </div>
+
+    <div class="section-box">
+      <h3>Task 3: Changing Styles</h3>
+      <div id="styledBox" style="padding: 15px; border: 1px solid #ccc; background-color: #f0f0f0;">
+        This box will change background color and font size.
+      </div>
+      <button id="changeBgBtn">Change Background</button>
+      <button id="changeFontBtn">Change Font Size</button>
+    </div>
+
+    <div class="section-box">
+      <h3>Task 4: Creating & Removing Elements</h3>
+      <button id="addItemBtn">Add Item</button>
+      <button id="removeItemBtn">Remove Item</button>
+      <ul id="dynamicList">
+        <li>Item 1</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/part2.js"></script>
+</body>
+</html>

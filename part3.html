@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Part 3 - Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">JS Assignment #5</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="part1.html">Part 1</a></li>
+      <li><a href="part2.html">Part 2</a></li>
+      <li><a href="part3.html">Part 3</a></li>
+      <li><a href="todo.html">To-Do App</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Part 3: Events</h2>
+
+    <div class="section-box">
+      <h3>Task 5: Mouse Events</h3>
+      <div id="colorBox">Hover over me!</div>
+    </div>
+
+    <div class="section-box">
+      <h3>Task 6: Keyboard Events</h3>
+      <input type="text" id="keyupInput" placeholder="Type something here...">
+      <p>Live output: <span id="keyupOutput" style="font-weight: bold;"></span></p>
+    </div>
+
+    <div class="section-box">
+      <h3>Task 7: Calculator</h3>
+      <input type="number" id="calcNum1" placeholder="First number" style="width: 48%; display: inline-block;">
+      <input type="number" id="calcNum2" placeholder="Second number" style="width: 48%; display: inline-block;">
+      <div>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+      </div>
+      <h4>Result: <span id="calcResult">0</span></h4>
+    </div>
+  </div>
+
+  <script src="js/part3.js"></script>
+</body>
+</html>

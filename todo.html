@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Part 4 - To-Do App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">JS Assignment #5</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="part1.html">Part 1</a></li>
+      <li><a href="part2.html">Part 2</a></li>
+      <li><a href="part3.html">Part 3</a></li>
+      <li><a href="todo.html">To-Do App</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="todo-container">
+      <div class="todo-list-section">
+        <h2>To-do list</h2>
+        <div id="taskList"></div>
+      </div>
+
+      <div class="todo-form-section">
+        <h2>Add new task</h2>
+        <label>* Title</label>
+        <input type="text" id="taskTitle" placeholder="Title">
+
+        <label>* Description</label>
+        <textarea id="taskDesc" rows="4" placeholder="Description"></textarea>
+
+        <button id="addTaskBtn" style="width: 100%; padding: 12px; background-color: #b846e5;">Add task</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/todo.js"></script>
+</body>
+</html>
